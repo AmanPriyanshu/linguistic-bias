@@ -15,4 +15,5 @@ This has real-world consequences; for example, concerns have been raised about a
 
 1. **Adopting Psychological Tests:** Human tests like Implicit Association Test (_used to measure subconscious gender bias in humans_. Using time and accuracy as metrics for similar and different word-concept-associations) can be used as basis for tests like the Word Embedding Association Test (WEAT) /  Sentence Encoder Association
 Test (SEAT).
-2. **Analyzing Gender Sub-space in Embeddings:** 
+2. **Analyzing Gender Sub-space in Embeddings:** A list of gender-specific words and gender-neutral words are articulated from the dataset. Authors then identify a gender direction by aggregating ten gender pairs (_her-his, she-he, etc._) and using PCA to find a single eigenvector that exhibits significantly greater variance than the rest. This eigen vector is then assessed within a gender-neutral word collection. Taken as the sub-space if these gender-neutral words display associations to particular genders, bias can be seen. However, removing this specific eigenvector may not mitigate bias, as gender-biased words still seem to cluster together --> Cluster bias of a word can be measured as the % of male or female stereotypical words among the k-NN of word's embedding.
+3. **:**
