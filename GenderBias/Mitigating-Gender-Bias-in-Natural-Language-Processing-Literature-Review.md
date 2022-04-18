@@ -1,4 +1,4 @@
-# Gender Bias
+# Mitigating Gender Bias in Natural Language Processing: Literature Review
 
 Gender bias is the preference or prejudice toward one gender over the other. 
 
